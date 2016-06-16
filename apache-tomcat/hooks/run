@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo {{pkg.path}}
+cd {{pkg.path}}
+export JAVA_HOME=$(cat {{pkg.path}}/JAVA_HOME)
+echo $JAVA_HOME
+
+bin/catalina.sh run

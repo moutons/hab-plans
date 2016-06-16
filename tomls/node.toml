@@ -1,0 +1,5 @@
+# Message of the Day
+message = "Toronto is the best!"
+
+# The port number that is listening for requests.
+port = 8080

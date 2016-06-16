@@ -1,0 +1,5 @@
+# Message of the Day
+message = "I changed this!"
+
+# The port number that is listening for requests.
+port = 8080
